@@ -16,6 +16,10 @@ router.get("/:zipcode", function(req, res, next) {
     temp = "&units=imperial"
     scales = "Fahrenheit"
   }
+  else{
+    temp = "&units=imperial"
+    scales = "Fahrenheit"
+  }
   var request = require("request");
   var options = {
     method: "GET",
